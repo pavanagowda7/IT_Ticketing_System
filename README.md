@@ -39,7 +39,7 @@ Client Side:
 Installation Instructions
 -------------------------
 1. Clone the repository
-  https://github.com/pavanagowda7/EmployeeManagementSystem.git
+  (https://github.com/pavanagowda7/IT_Ticketing_System.git)
 3. Set up environment
    - Download and install Xampp from its official site.
    - Copy the cloned repository into "C:\xampp\htdocs\".
