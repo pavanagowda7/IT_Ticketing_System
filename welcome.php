@@ -69,3 +69,129 @@ while($result=mysqli_fetch_array($query))
     </body>
 </html>
 <?php } ?>
+
+
+
+Here's a basic HTML layout that matches the form structure in your image ("Step 1: Basic Information"). You can expand it with CSS or frameworks like Bootstrap for a polished design.
+
+HTML Code:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Form - Basic Information</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .container { display: flex; flex-wrap: wrap; gap: 40px; }
+    .column { flex: 1; min-width: 300px; }
+    .form-group { margin-bottom: 15px; }
+    label { display: block; font-weight: bold; margin-bottom: 5px; }
+    input, select { width: 100%; padding: 6px; box-sizing: border-box; }
+    .radio-group { display: flex; gap: 10px; }
+    .button-group { margin-top: 20px; }
+  </style>
+</head>
+<body>
+
+<h2>Step 1: Basic Information</h2>
+<div class="container">
+  <div class="column">
+    <div class="form-group">
+      <label>Employee Number Series</label>
+      <select>
+        <option value="">--Select--</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Employee No</label>
+      <input type="text">
+    </div>
+    <div class="form-group">
+      <label>Name</label>
+      <input type="text">
+    </div>
+    <div class="form-group">
+      <label>Date of Birth</label>
+      <input type="date">
+    </div>
+    <div class="form-group">
+      <label>Aadhaar Number</label>
+      <input type="text">
+    </div>
+    <div class="form-group">
+      <label>Gender</label>
+      <div class="radio-group">
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> Female</label>
+        <label><input type="radio" name="gender"> Others</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Reporting Manager</label>
+      <input type="text">
+    </div>
+    <div class="form-group">
+      <label>Status</label>
+      <select>
+        <option value="">--Select--</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Date of Joining</label>
+      <input type="date">
+    </div>
+    <div class="form-group">
+      <label>Referred By</label>
+      <input type="text">
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="form-group">
+      <label>Probation Period (Days)</label>
+      <input type="number" value="0" step="1">
+    </div>
+    <div class="form-group">
+      <label>Confirmation Date</label>
+      <input type="date">
+    </div>
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email">
+    </div>
+    <div class="form-group">
+      <label>Mobile Number</label>
+      <input type="text">
+    </div>
+    <div class="form-group">
+      <label>Emergency Contact Name</label>
+      <input type="text">
+    </div>
+    <div class="form-group">
+      <label>Emergency Contact Number</label>
+      <input type="text">
+    </div>
+    <div class="form-group">
+      <label>Father's Name</label>
+      <input type="text">
+    </div>
+    <div class="form-group">
+      <label>Spouse Name</label>
+      <input type="text">
+    </div>
+  </div>
+</div>
+
+<div class="button-group">
+  <button type="button">Previous</button>
+  <button type="button">Next</button>
+  <button type="reset">Cancel</button>
+</div>
+
+</body>
+</html>
+
+This layout mimics the structure shown in your image, with two columns and grouped fields. Let me know if you want this styled with Bootstrap or made responsive.
+
+
